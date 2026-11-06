@@ -2,7 +2,12 @@
 # Format: docs/extensions-contract.md §8 in fyso-dev/agentic-framework.
 # Versions are not listed here: they are the git tags of each extension repo.
 name: Fyso
-extensions: []
+extensions:
+  - id: sample
+    src: gh:fyso-dev/fyso-ext-sample
+    name: {es: Ejemplo, en: Sample}
+    description: {es: Sitio estático de ejemplo (referencia para autores), en: Sample static site (reference for authors)}
+    tags: [demo]
 # - id: netbird                          # ^[a-z][a-z0-9-]{1,30}$, the extension id
 #   src: gh:fyso-dev/fyso-ext-netbird    # Copier source of the extension repo
 #   name: {es: NetBird, en: NetBird}
