@@ -1,0 +1,11 @@
+# Official catalog of Fyso Agentic Framework extensions (D31).
+# Format: docs/extensions-contract.md §8 in fyso-dev/agentic-framework.
+# Versions are not listed here: they are the git tags of each extension repo.
+name: Fyso
+extensions: []
+# - id: netbird                          # ^[a-z][a-z0-9-]{1,30}$, the extension id
+#   src: gh:fyso-dev/fyso-ext-netbird    # Copier source of the extension repo
+#   name: {es: NetBird, en: NetBird}
+#   description: {es: Red privada entre hosts, en: Private network between hosts}
+#   tags: [network]
+#   homepage: https://netbird.io
