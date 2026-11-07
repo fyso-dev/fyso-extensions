@@ -8,6 +8,12 @@ extensions:
     name: {es: Ejemplo, en: Sample}
     description: {es: Sitio estático de ejemplo (referencia para autores), en: Sample static site (reference for authors)}
     tags: [demo]
+  - id: biz
+    src: gh:fyso-dev/fyso-ext-biz
+    name: {es: Fyso Biz, en: Fyso Biz}
+    description: {es: "OKRs, KPIs y palancas con un bot integrado (panel API v1)", en: "OKRs, KPIs and levers with a connected bot (panel API v1)"}
+    tags: [business, okr, kpi, mcp]
+    homepage: https://fyso.biz
 # - id: netbird                          # ^[a-z][a-z0-9-]{1,30}$, the extension id
 #   src: gh:fyso-dev/fyso-ext-netbird    # Copier source of the extension repo
 #   name: {es: NetBird, en: NetBird}
