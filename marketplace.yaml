@@ -14,6 +14,12 @@ extensions:
     description: {es: "OKRs, KPIs y palancas con un bot integrado (panel API v1)", en: "OKRs, KPIs and levers with a connected bot (panel API v1)"}
     tags: [business, okr, kpi, mcp]
     homepage: https://fyso.biz
+  - id: langfuse
+    src: gh:fyso-dev/fyso-ext-langfuse
+    name: {es: Langfuse, en: Langfuse}
+    description: {es: "Trazas, tokens y costos de los bots en Langfuse Cloud", en: "Bot traces, tokens and costs in Langfuse Cloud"}
+    tags: [observability, tracing, llm]
+    homepage: https://langfuse.com
 # - id: netbird                          # ^[a-z][a-z0-9-]{1,30}$, the extension id
 #   src: gh:fyso-dev/fyso-ext-netbird    # Copier source of the extension repo
 #   name: {es: NetBird, en: NetBird}
