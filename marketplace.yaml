@@ -15,6 +15,12 @@ extensions:
     description: {es: "Trazas, tokens y costos de los bots en Langfuse Cloud", en: "Bot traces, tokens and costs in Langfuse Cloud"}
     tags: [observability, tracing, llm]
     homepage: https://langfuse.com
+  - id: silverbullet
+    src: gh:fyso-dev/fyso-ext-silverbullet
+    name: {es: SilverBullet, en: SilverBullet}
+    description: {es: "Base de conocimiento compartida, editor e importación con IA", en: "Shared knowledge base, editor and AI document import"}
+    tags: [knowledge, wiki, documents, mcp]
+    homepage: https://silverbullet.md
 # - id: netbird                          # ^[a-z][a-z0-9-]{1,30}$, the extension id
 #   src: gh:fyso-dev/fyso-ext-netbird    # Copier source of the extension repo
 #   name: {es: NetBird, en: NetBird}
