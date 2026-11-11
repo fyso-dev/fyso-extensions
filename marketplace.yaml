@@ -3,11 +3,24 @@
 # Versions are not listed here: they are the git tags of each extension repo.
 name: Fyso
 extensions:
-  - id: sample
-    src: gh:fyso-dev/fyso-ext-sample
-    name: {es: Ejemplo, en: Sample}
-    description: {es: Sitio estático de ejemplo (referencia para autores), en: Sample static site (reference for authors)}
-    tags: [demo]
+  - id: biz
+    src: gh:fyso-dev/fyso-ext-biz
+    name: {es: Fyso Biz, en: Fyso Biz}
+    description: {es: "OKRs, KPIs y palancas con un bot integrado (panel API v1)", en: "OKRs, KPIs and levers with a connected bot (panel API v1)"}
+    tags: [business, okr, kpi, mcp]
+    homepage: https://fyso.biz
+  - id: langfuse
+    src: gh:fyso-dev/fyso-ext-langfuse
+    name: {es: Langfuse, en: Langfuse}
+    description: {es: "Trazas, tokens y costos de los bots en Langfuse Cloud", en: "Bot traces, tokens and costs in Langfuse Cloud"}
+    tags: [observability, tracing, llm]
+    homepage: https://langfuse.com
+  - id: silverbullet
+    src: gh:fyso-dev/fyso-ext-silverbullet
+    name: {es: SilverBullet, en: SilverBullet}
+    description: {es: "Base de conocimiento compartida, editor e importación con IA", en: "Shared knowledge base, editor and AI document import"}
+    tags: [knowledge, wiki, documents, mcp]
+    homepage: https://silverbullet.md
   - id: netbird
     src: gh:fyso-dev/fyso-ext-netbird
     name: {es: NetBird, en: NetBird}
