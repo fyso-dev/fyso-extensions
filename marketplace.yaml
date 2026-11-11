@@ -21,9 +21,9 @@ extensions:
     description: {es: "Base de conocimiento compartida, editor e importación con IA", en: "Shared knowledge base, editor and AI document import"}
     tags: [knowledge, wiki, documents, mcp]
     homepage: https://silverbullet.md
-# - id: netbird                          # ^[a-z][a-z0-9-]{1,30}$, the extension id
-#   src: gh:fyso-dev/fyso-ext-netbird    # Copier source of the extension repo
-#   name: {es: NetBird, en: NetBird}
-#   description: {es: Red privada entre hosts, en: Private network between hosts}
-#   tags: [network]
-#   homepage: https://netbird.io
+  - id: netbird
+    src: gh:fyso-dev/fyso-ext-netbird
+    name: {es: NetBird, en: NetBird}
+    description: {es: Publica las apps del proyecto por HTTPS con el reverse proxy de NetBird, en: Publish the project's apps over HTTPS through the NetBird reverse proxy}
+    tags: [network, remote-access]
+    homepage: https://netbird.io
