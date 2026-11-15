@@ -21,6 +21,11 @@ extensions:
     description: {es: "Base de conocimiento compartida, editor e importación con IA", en: "Shared knowledge base, editor and AI document import"}
     tags: [knowledge, wiki, documents, mcp]
     homepage: https://silverbullet.md
+  - id: human-requests
+    src: gh:fyso-dev/fyso-ext-human-requests
+    name: {es: Pedidos humanos, en: Human requests}
+    description: {es: "Los bots piden decisiones o aclaraciones a personas; bandeja Pendientes y directorio de personas", en: "Bots ask people for decisions or clarifications; Pending inbox and people directory"}
+    tags: [workflow, approvals, human-in-the-loop, dagu]
   - id: netbird
     src: gh:fyso-dev/fyso-ext-netbird
     name: {es: NetBird, en: NetBird}
