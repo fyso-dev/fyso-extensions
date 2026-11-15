@@ -6,7 +6,7 @@ extensions:
   - id: biz
     src: gh:fyso-dev/fyso-ext-biz
     name: {es: Fyso Biz, en: Fyso Biz}
-    description: {es: "OKRs, KPIs y palancas con un bot integrado (panel API v1)", en: "OKRs, KPIs and levers with a connected bot (panel API v1)"}
+    description: {es: "Equipos de agentes, OKRs, KPIs y palancas desde Fyso Business, con inicio de sesión desde el panel (panel API v1)", en: "Agent teams, OKRs, KPIs and levers from Fyso Business, with sign-in from the panel (panel API v1)"}
     tags: [business, okr, kpi, mcp]
     homepage: https://fyso.biz
   - id: langfuse
