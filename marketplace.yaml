@@ -38,3 +38,9 @@ extensions:
     description: {es: "Menú en la barra superior para saltar a las otras instancias del hub de este servidor (panel API v3)", en: "Top-bar menu to jump to the other instances of this host's hub (panel API v3)"}
     tags: [hub, navigation]
     homepage: https://github.com/fyso-dev/fyso-hub
+  - id: discord
+    src: gh:fyso-dev/fyso-ext-discord
+    name: {es: Discord, en: Discord}
+    description: {es: "Un agente del proyecto responde en canales de Discord, en hilos que recuerdan la conversación", en: "A project agent answers in Discord channels, in threads that keep the conversation"}
+    tags: [chat, channels, discord]
+    homepage: https://discord.com/developers/applications
