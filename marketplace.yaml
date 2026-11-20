@@ -32,3 +32,9 @@ extensions:
     description: {es: Publica las apps del proyecto por HTTPS con el reverse proxy de NetBird, en: Publish the project's apps over HTTPS through the NetBird reverse proxy}
     tags: [network, remote-access]
     homepage: https://netbird.io
+  - id: hub
+    src: gh:fyso-dev/fyso-ext-hub
+    name: {es: Hub de instancias, en: Instance hub}
+    description: {es: "Menú en la barra superior para saltar a las otras instancias del hub de este servidor (panel API v3)", en: "Top-bar menu to jump to the other instances of this host's hub (panel API v3)"}
+    tags: [hub, navigation]
+    homepage: https://github.com/fyso-dev/fyso-hub
