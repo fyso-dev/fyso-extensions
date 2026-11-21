@@ -44,3 +44,9 @@ extensions:
     description: {es: "Un agente del proyecto responde en canales de Discord, en hilos que recuerdan la conversación", en: "A project agent answers in Discord channels, in threads that keep the conversation"}
     tags: [chat, channels, discord]
     homepage: https://discord.com/developers/applications
+  - id: slack
+    src: gh:fyso-dev/fyso-ext-slack
+    name: {es: Slack, en: Slack}
+    description: {es: "Agentes de Fyso en canales de Slack, con conversaciones en hilos y adjuntos", en: "Fyso agents in Slack channels, with threaded conversations and attachments"}
+    tags: [chat, channels, slack]
+    homepage: https://github.com/fyso-dev/fyso-ext-slack
